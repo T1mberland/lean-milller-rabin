@@ -1,0 +1,10 @@
+name = "rabin"
+version = "0.1.0"
+defaultTargets = ["rabin"]
+
+[[lean_lib]]
+name = "Rabin"
+
+[[lean_exe]]
+name = "rabin"
+root = "Main"
